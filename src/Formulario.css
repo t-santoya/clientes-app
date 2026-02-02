@@ -1,4 +1,9 @@
 /* Fondo general */
+body {
+    background: #f2f4f8;
+    font-family: Arial, sans-serif;
+}
+
 .contenedor {
     min-height: 100vh;
     width: 100vw;
@@ -13,17 +18,11 @@
     width: 100%;
     max-width: 400px;
     background: white;
-    padding: 24px;
-    border-radius: 14px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Título */
-.titulo {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 22px;
-}
 
 /* Formulario */
 .formulario {
@@ -32,30 +31,56 @@
     gap: 14px;
 }
 
-/* Inputs */
+.formulario p {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.titulo {
+    color: #222;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
 .input {
+    width: 100%;
     padding: 12px;
+    margin-bottom: 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 15px;
 }
+
 
 .input:focus {
     outline: none;
     border-color: #2563eb;
 }
 
-/* Botón */
+.radio-group label {
+    color: #333;
+    margin-right: 15px;
+}
+
 .boton {
-    background: #2563eb;
-    color: white;
+    width: 100%;
     padding: 12px;
+    background: #4f46e5;
+    color: white;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
 }
 
 .boton:hover {
-    background: #1e4ed8;
+    background: #4338ca;
+}
+
+.logo {
+    width: 90px;
+    display: block;
+    margin: 0 auto 10px;
 }
