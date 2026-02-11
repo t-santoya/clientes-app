@@ -1,10 +1,11 @@
 {
-  "name": "Mi Aplicación",
-  "short_name": "MiApp",
+  "name": "Registro de Clientes LUVAUS",
+  "short_name": "LUVAUS",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#000000",
+  "theme_color": "#0fb9d7",
+  "description": "Sistema de registro de clientes LUVAUS",
   "icons": [
     {
       "src": "/icon-192.png",
